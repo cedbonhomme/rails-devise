@@ -45,3 +45,25 @@ group :development do
   gem 'spring'
 end
 
+
+gem 'devise'
+gem 'haml-rails'
+gem 'high_voltage'
+gem 'pg'
+gem 'simple_form'
+gem 'therubyracer', :platform=>:ruby
+
+group :development do
+  gem 'better_errors'
+  gem 'html2haml'
+  gem 'hub', :require=>nil
+  gem 'quiet_assets'
+  gem 'rails_apps_pages'
+  gem 'rails_layout'
+end
+
+group :production do
+  gem 'puma'
+  gem 'rails_12factor'
+end
+
